@@ -1,0 +1,36 @@
+.box {
+  height: 100vh;
+  background-image: url("./media/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  height: 50vh;
+}
+h1 {
+  color: rgb(143, 148, 92);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+span {
+  color: rgb(185, 146, 146);
+  font-family: "Lucida Sans";
+  position: center;
+  background-color: rgb(105, 100, 101);
+  height: 50%;
+}
+h2 {
+  color: rgb(187, 187, 121);
+  background-color: rgb(140, 101, 101);
+  background-size: 50%;
+  height: 5%;
+  width: 20%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+body {
+  font-family: Arial;
+  color: rgb(83, 80, 80);
