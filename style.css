@@ -1,17 +1,137 @@
-.box {
-  height: 100vh;
-  background-image: url("./media/sfondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-img {
-  height: 50vh;
-}
-h1 {
-  color: rgb(143, 148, 92);
-  font-family: "Bebas Neue", sans-serif;
+h1 h2 h3 {
+  font-family: "Bebas Neue", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+nav {
+  background-color: white;
+  color: rgb(34, 34, 34);
+  font-family: CircularStd, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav ul {
+  margin: 0px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav li {
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.img-nav {
+  height: 50px;
+  align-items: center;
+}
+.blog-title {
+  font-size: 50vh;
+  color: #ffed00;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-shadow: 3px 5px #191919;
+}
+.top {
+  min-height: 120vh;
+  background-image: url(media/Q1nA2DPK.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.btn-li {
+  align-items: center;
+  appearance: none;
+  background-color: #ffed00;
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #191919;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 3px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.aside-cstm {
+  height: 50vh;
+  width: 50vh;
+  background-color: #ffed00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.aside-titl {
+  color: #191919;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.aside-p {
+  font-size: 20px;
+}
+.btn-aside {
+  align-items: center;
+  appearance: none;
+  background-color: #191919;
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 3px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  margin-bottom: 50px;
+}
+
+.a-home {
+  color: white;
+  padding: 2px 2px;
+}
+a {
+  text-decoration: none;
+}
+.material-icons {
+  color: white;
 }
 span {
   color: rgb(185, 146, 146);
@@ -21,10 +141,6 @@ span {
   height: 50%;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-}
 body {
   font-family: Arial;
   color: rgb(83, 80, 80);
@@ -38,4 +154,59 @@ body {
 }
 .element:hover {
   background-color: rgb(140, 101, 101);
+}
+article {
+  width: 30%;
+  padding: 1%;
+}
+.btn-custom {
+  align-items: center;
+  appearance: none;
+  background-color: #fcfcfd;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395a;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.article-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-article {
+  width: 300px;
+}
+
+.nav-flex {
+  display: flex;
+  height: 100vh;
+  background-image: url("./media/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
