@@ -1,6 +1,6 @@
 h1 h2 h3 {
   font-family: "Bebas Neue", serif;
-  font-weight: 400;
+  font-weight: 400vh;
   font-style: normal;
 }
 
@@ -8,7 +8,7 @@ nav {
   background-color: white;
   color: rgb(34, 34, 34);
   font-family: CircularStd, sans-serif;
-  font-weight: 400;
+  font-weight: 400vh;
   font-style: normal;
 }
 nav ul {
@@ -19,7 +19,7 @@ nav ul {
   align-items: center;
 }
 nav a {
-  color: white;
+  color: rgb(34, 34, 34);
   text-decoration: none;
 }
 nav li {
@@ -27,6 +27,8 @@ nav li {
   align-items: center;
   justify-content: center;
   margin: 0px 10px;
+  text-decoration: none;
+  color: #191919;
 }
 .img-nav {
   height: 50px;
@@ -209,4 +211,70 @@ article {
   background-image: url("./media/sfondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.freccia-custom {
+  height: 100px;
+  position: sticky;
+  bottom: 0px;
+  right: 0px;
+  left: 1500px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 h2 h3 {
+    font-weight: 50vh;
+  }
+  .img-nav {
+    height: 100px;
+    align-items: center;
+  }
+  nav {
+    font-weight: 50vh;
+    width: 100%;
+  }
+  nav ul {
+    display: contents;
+    width: 100%;
+    font-size: 2vh;
+    justify-content: left;
+  }
+  nav li {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+  }
+  .img-nav {
+    height: 50px;
+    align-items: flex-start;
+  }
+  .blog-title {
+    font-size: 25vh;
+    margin-bottom: 0%;
+  }
+  .top {
+    min-height: 45vh;
+    margin-top: 0%;
+  }
+  .flex {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  article {
+    width: 100%;
+    padding: 1%;
+  }
+  .article-flex {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+  }
+  .aside-cstm {
+    height: 50vh;
+    width: 100%;
+    margin-top: 10vh;
+  }
 }
